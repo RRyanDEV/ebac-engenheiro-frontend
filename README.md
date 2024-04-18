@@ -33,6 +33,7 @@ O projeto de Avaliação Interpessoal busca proporcionar uma análise abrangente
 ### Construído com
 
 [![HTML][HTML]][html-url]
+[![CSS][CSS]][css-url]
 
 <br />
  
@@ -41,6 +42,11 @@ O projeto de Avaliação Interpessoal busca proporcionar uma análise abrangente
 ## Notas de versão
 
 </a>
+
+### v0.0.2-240418
+
+- Restruturação do repositório separando em aulas de HTML/CSS.
+- Criado uma homepage para as atividades do Módulo 3 e 4.
 
 ### v0.0.1-240415
 
@@ -80,3 +86,5 @@ O projeto de Avaliação Interpessoal busca proporcionar uma análise abrangente
 
 [HTML]: https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [html-url]: https://developer.mozilla.org/pt-BR/docs/Web/HTML
+[CSS]: https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
+[css-url]: https://developer.mozilla.org/pt-BR/docs/Web/CSS

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../html+css/css/formulariosM4.css">
+        <title>Formulario - Fale Conosco</title>
+    </head>
+    <body>
+        <header>
+            <h2>Curso Front-End - HTML</h2>
+        </header>
+
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#top">Contato</a></li>
+                </ul>
+            </nav>
+            <article>
+                <h1>Contato</h1>
+                <p>Preencha os campos abaixo</p>
+
+                <form method="post">
+
+                    <div>
+                        <label for="nome">Nome</label><br>
+                        <input type="text" name="nome" id="nome" placeholder="Digite Seu Nome">
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail</label><br>
+                        <input type="email" name="email" id="email" placeholder="Digite Seu E-mail">
+                    </div>
+
+                    <div>
+                        <label for="mensagem">Mensagem</label><br>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+                    </div><br>
+                        
+                    <div>
+                        <label>Quais linguagens você prefere?</label>
+                        <input type="radio" name="linguagens" id="HtmlR">HTML
+                        <input type="radio" name="linguagens" id="CssR">CSS
+                        <input type="radio" name="linguagens" id="JsR">JavaScript
+                    </div>
+                    
+                    <div>
+                        <label>Quais linguagens você sabe?</label>
+                        <input type="checkbox" name="linguagens" id="HtmlC">HTML
+                        <input type="checkbox" name="linguagens" id="CssC">CSS
+                        <input type="checkbox" name="linguagens" id="JsC">JavaScript
+                    </div><br>
+                    
+                    <div>
+                        <label>Qual sua cor favorita?</label>
+                        <select>
+                            <option value="Azul">Azul</option>
+                            <option value="Vermelho">Vermelho</option>
+                            <option value="Preto">Preto</option>
+                        </select>
+                    </div>
+
+                    <input type="submit" value="Enviar">
+                </form>
+
+            </article>
+        </section>
+
+        <footer>Desenvolvido Por RRyanDEV</footer>
+    </body>
+</html>
