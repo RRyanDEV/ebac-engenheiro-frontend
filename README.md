@@ -43,6 +43,10 @@ O projeto de Avaliação Interpessoal busca proporcionar uma análise abrangente
 
 </a>
 
+### v0.0.4-240423
+
+- Exercício do Módulo 6 [`CSS Foundations I`].
+
 ### v0.0.3-240422
 
 - Exercício do Módulo 5 [`Conceitos de Design`].
