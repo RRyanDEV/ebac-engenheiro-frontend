@@ -1,0 +1,45 @@
+table {
+	border: 1px solid ;
+	background: #ffffff;
+	border-collapse: collapse;
+
+}
+
+table tbody tr:nth-child(even) {
+	background-color: #687CA8;
+}
+
+table tbody tr:hover {
+	color: white;
+	background-color: #232833;
+}
+
+
+table th,
+table td {
+	padding: 1rem;
+	font-size: 1rem;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table tr td:first-child {
+	text-align: left;
+	font-weight: bold;
+}
+
+.table-container {
+	padding: 2rem 1rem;
+}
+
+.table-container h3{
+	color: white;
+}
+
+.table-container tfoot {
+	background: #EEEEEE;
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+}

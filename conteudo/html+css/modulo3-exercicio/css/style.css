@@ -1,12 +1,16 @@
-body{
-    font-family: sans-serif;
-    background-color: #CCCCCC;
+body {
+  font-family: sans-serif;
+  background-color: #cccccc;
 }
 
-table{
-    background-color: white;
-}
+table {
 
-h1{
-    color: #5F3AA2;
+  flex-direction: column;
+  background-color: white;
+}
+table p {
+  color: black;
+}
+h1 {
+  color: #5f3aa2;
 }

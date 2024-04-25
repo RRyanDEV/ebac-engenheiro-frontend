@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/style.css">
-        <title>Formulario - Fale Conosco</title>
+        <link rel="stylesheet" href="./css/layout.css">
+        <link rel="stylesheet" href="./css/formulario.css">
+        <title>Exercício Módulo 06</title>
     </head>
     <body>
         <header>
@@ -13,12 +14,12 @@
 
         <section>
             <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#top">Contato</a></li>
-                </ul>
-            </nav>
+				<h3>Aulas</h3>
+				<ul class="navegacao">
+					<li><a href="../homepage.html">Página Inicial</a></li>
+				</ul>
+
+			</nav>
 
             <article>
                 <form>
@@ -42,7 +43,7 @@
                     <div class="form-texts">
                         <label for="mensagem">Mensagem</label><br>
                         <textarea name="mensagem" id="mensagem" cols="30"
-                            rows="5"></textarea>
+                            rows="5" placeholder="Coloque uma mensagem"></textarea>
                     </div><br>
 
                     <div class="form-texts">
@@ -71,7 +72,9 @@
                         </select>
                     </div>
 
+                    <div id="center-btn">
                     <input type="submit" value="Enviar">
+                </div>
                 </form>
 
             </article>
