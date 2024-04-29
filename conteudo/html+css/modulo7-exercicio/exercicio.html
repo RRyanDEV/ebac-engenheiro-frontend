@@ -7,8 +7,9 @@
 
 		<!-- GOOGLE FONTS -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet"> 
-		
+		<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap"
+			rel="stylesheet">
+		<!-- //TODO REVISAR RESPONSIVIDADE -->
 		<!-- Estilos Personalizados -->
 		<link rel="stylesheet" type="text/css" href="./css/layout.css">
 		<link rel="stylesheet" type="text/css" href="./css/tabelas.css">
@@ -19,125 +20,121 @@
 			<h2>Curso Front-End - HTML</h2>
 		</header>
 
-		<section>
+		<nav>
+			<h3>Aulas</h3>
+			<div class="navegacao">
+				<a href="../homepage.html">Página Inicial</a>
+			</div>
+		</nav>
 
-			<nav>
-				<h3>Aulas</h3>
-				<ul class="navegacao">
-					<li><a href="../homepage.html">Página Inicial</a></li>
-				</ul>
-			</nav>
-
-			<article>
-
-				<div class="table-container">
-					<h3>Finanças / Vendas</h3>
-					<table border="1">
-						<thead>
-							<th>Ano 2024</th>
-							<th colspan="2">Coluna 1</th>
-							<th colspan="2">Coluna 2</th>
-							<th colspan="2">Coluna 3</th>
-							<th colspan="2">Coluna 4</th>
-						</thead>
-						<tbody>
-							<tr align="center">
-								<td>Produtos</td>
-								<!-- Coluna 1 -->
-								<th>Atual</th>
-								<th>Meta</th>
-								<!--  -->
-								<!-- Coluna 2 -->
-								<th>Atual</th>
-								<th>Meta</th>
-								<!--  -->
-								<!-- Coluna 3 -->
-								<th>Atual</th>
-								<th>Meta</th>
-								<!--  -->
-								<!-- Coluna 4 -->
-								<th>Atual</th>
-								<th>Meta</th>
-								<!--  -->
-							</tr>
-						<tr align="center">
-							<td>Produto A</td>
-							<!-- Coluna 1  -->
-							<td>5</td>
-							<td>10</td>
-							<!--  -->
-							<!-- Coluna 2  -->
-							<td>10</td>
-							<td>20</td>
-							<!--  -->
-							<!-- Coluna 3  -->
-							<td>15</td>
-							<td>30</td>
-							<!--  -->
-							<!-- Coluna 4  -->
-							<td>20</td>
-							<td>40</td>
-							<!--  -->
-						</tr>
-						<tr align="center">
-							<td>Produto B</td>
-							<!-- Coluna 1  -->
-							<td>10</td>
-							<td>20</td>
-							<!--  -->
-							<!-- Coluna 2  -->
-							<td>15</td>
-							<td>30</td>
-							<!--  -->
-							<!-- Coluna 3  -->
-							<td>20</td>
-							<td>40</td>
-							<!--  -->
-							<!-- Coluna 4  -->
-							<td>25</td>
-							<td>50</td>
-							<!--  -->
-						</tr>
-						<tr>
-							<td>Produto C</td>
-							<!-- Coluna 1  -->
-							<td>15</td>
-							<td>30</td>
-							<!--  -->
-							<!-- Coluna 2  -->
-							<td>20</td>
-							<td>40</td>
-							<!--  -->
-							<!-- Coluna 3  -->
-							<td>25</td>
-							<td>50</td>
-							<!--  -->
-							<!-- Coluna 4  -->
-							<td>30</td>
-							<td>60</td>
-							<!--  -->
-						</tr>
-					</tbody>
-					<tfoot>
-						<tr>
-							<td>Total</td>
-							<td>30</td>
-							<td>60</td>
-							<td>45</td>
-							<td>90</td>
-							<td>60</td>
-							<td>120</td>
-							<td>95</td>
-							<td>150</td>
-						</tr>
-					</tfoot>
-					</table>
-			</article>
-		</section>
-
+		<div class="table-container">
+			<h3>Finanças / Vendas</h3>
+			<div class="table">
+				<div class="rowTitle">
+					<div class="header">Ano 2024</div>
+					<div class="header">Produtos</div>
+					<div class="header">Produto A</div>
+					<div class="header">Produto B</div>
+					<div class="header">Produto C</div>
+					<div class="header">Total</div>
+				</div>
+				<div class="row">
+					<div class="column">Coluna 1</div>
+					<div class="values">
+						<div class="value">Atual</div>
+						<div class="value">Meta</div>
+					</div>
+					<div class="values">
+						<div class="value">5</div>
+						<div class="value">10</div>
+					</div>
+					<div class="values">
+						<div class="value">10</div>
+						<div class="value">20</div>
+					</div>
+					<div class="values">
+						<div class="value">15</div>
+						<div class="value">30</div>
+					</div>
+					<div class="values">
+						<div class="value">30</div>
+						<div class="value">60</div>
+					</div>
+				</div>
+				<div class="row2">
+					<div class="column">Coluna 2</div>
+					<div class="values">
+						<div class="value">Atual</div>
+						<div class="value">Meta</div>
+					</div>
+					<div class="values">
+						<div class="value">5</div>
+						<div class="value">10</div>
+					</div>
+					<div class="values">
+						<div class="value">10</div>
+						<div class="value">20</div>
+					</div>
+					<div class="values">
+						<div class="value">15</div>
+						<div class="value">30</div>
+					</div>
+					<div class="values">
+						<div class="value">30</div>
+						<div class="value">60</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column">Coluna 3</div>
+					<div class="values">
+						<div class="value">Atual</div>
+						<div class="value">Meta</div>
+					</div>
+					<div class="values">
+						<div class="value">5</div>
+						<div class="value">10</div>
+					</div>
+					<div class="values">
+						<div class="value">10</div>
+						<div class="value">20</div>
+					</div>
+					<div class="values">
+						<div class="value">15</div>
+						<div class="value">30</div>
+					</div>
+					<div class="values">
+						<div class="value">30</div>
+						<div class="value">60</div>
+					</div>
+				</div>
+				<div class="row4">
+					<div class="column">Coluna 4</div>
+					<div class="values">
+						<div class="value">Atual</div>
+						<div class="value">Meta</div>
+					</div>
+					<div class="values">
+						<div class="value">5</div>
+						<div class="value">10</div>
+					</div>
+					<div class="values">
+						<div class="value">10</div>
+						<div class="value">20</div>
+					</div>
+					<div class="values">
+						<div class="value">15</div>
+						<div class="value">30</div>
+					</div>
+					<div class="values">
+						<div class="value">30</div>
+						<div class="value">60</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<footer>
 			<p>Desenvolvido por RRyanDEV</p>
 		</footer>
-		
+
 	</body>
 </html>

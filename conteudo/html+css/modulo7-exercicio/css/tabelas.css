@@ -1,45 +1,71 @@
-table {
-	border: 1px solid ;
-	background: #ffffff;
-	border-collapse: collapse;
-
-}
-
-table tbody tr:nth-child(even) {
-	background-color: #687CA8;
-}
-
-table tbody tr:hover {
-	color: white;
-	background-color: #232833;
-}
-
-
-table th,
-table td {
-	padding: 1rem;
-	font-size: 1rem;
-	text-align: center;
-	vertical-align: middle;
-}
-
-table tr td:first-child {
-	text-align: left;
-	font-weight: bold;
-}
-
 .table-container {
-	padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  h3 {
+    color: white;
+    padding-bottom: 10px;
+  }
+}
+.table {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
 }
 
-.table-container h3{
-	color: white;
+.row,
+.rowTitle {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  border-bottom: 1px solid black;
+}
+.row:hover {
+  color: white;
+  background-color: #232833;
+}
+.row2:hover {
+  color: white;
+  background-color: #232833;
+}
+.row4:hover {
+  color: white;
+  background-color: #232833;
 }
 
-.table-container tfoot {
-	background: #EEEEEE;
+.row2,
+.row4 {
+  background-color: #687ca8;
+  display: flex;
+  border-bottom: 1px solid black;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
-.table-container tfoot td {
-	font-weight: bold;
+.header,
+.column,
+.values,
+.value {
+  padding: 8px;
+  text-align: center;
+}
+
+.header {
+  flex: 1;
+  font-weight: bold;
+}
+
+.values {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.value {
+  margin-top: 5px;
 }

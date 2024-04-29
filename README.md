@@ -43,6 +43,10 @@ O projeto de Avaliação Interpessoal busca proporcionar uma análise abrangente
 
 </a>
 
+### v0.0.6-240429
+
+- Correção das atividades 3,6 e 7 da seção [`HTML E CSS`].
+
 ### v0.0.5-240425
 
 - Restilização dos exercícios dos Módulos 3 e 6.

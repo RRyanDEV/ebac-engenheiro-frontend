@@ -4,6 +4,8 @@
 		<title>HTML - RRyanDEV Home</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="../html+css/css/homepageM4.css">
 	</head>
 	<body>
@@ -12,10 +14,10 @@
 			<h2>Curso Front-end - HTML</h2>
 		</header>
 
-		<section>
-
-			<nav>
-
+		<div class="topnav"> <!-- Navabr (Mobiles)  -->
+			<a href="#home" class="active">Logo</a>
+			<!-- Navigation links (hidden by default) -->
+			<div id="myLinks">
 				<h3>Aulas</h3>
 				<ul>
 					<li><a href="./01-introducao.html" target="_blank">Introdução</a></li>
@@ -32,7 +34,6 @@
 					<li><a href="./modulo6-exercicio/exercicio.html">Formulários</a></li>
 					<li><a href="./modulo7-exercicio/exercicio.html">Tabela Finanças</a></li>
 				</ul>
-
 				<h3>Redes Sociais</h3>
 				<ul>
 					<li><a href="https://www.linkedin.com/in/rryandev/"
@@ -42,25 +43,65 @@
 					<li><a href="https://github.com/RRyanDEV" target="_blank">Github</li></a>
 				</ul>
 
-			</nav>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
 
-			<article>
+		<nav> <!-- Navabr (Full Screen)  -->
+			<h3>Aulas</h3>
+			<ul>
+				<li><a href="./01-introducao.html" target="_blank">Introdução</a></li>
+				<li><a href="./02-listas-e-links.html" target="_blank">Listas e
+						Links</a></li>
+				<li><a href="./04-tabelas.html" target="_blank">Tabelas</a></li>
+				<li><a href="./05-layouts.html" target="_blank">Layouts</a></li>
+			</ul>
 
-				<img width="200"
-					src="https://media.licdn.com/dms/image/D4D03AQGq11W9YeV58A/profile-displayphoto-shrink_800_800/0/1683125140072?e=1718841600&v=beta&t=vVlpExacm4mep0oDrZy_V0weENCKWAvV5A3FWZGx2EM"
-					height="200" alt="Ryan Gomes">
+			<h3>Exercícios</h3>
+			<ul>
+				<li><a href="./modulo3-exercicio/exercicio.html">Formatação de
+						Texto</a></li>
+				<li><a href="./modulo6-exercicio/exercicio.html">Formulários</a></li>
+				<li><a href="./modulo7-exercicio/exercicio.html">Tabela Finanças</a></li>
+			</ul>
+
+			<h3>Redes Sociais</h3>
+			<ul>
+				<li><a href="https://www.linkedin.com/in/rryandev/"
+						target="_blank">LinkedIn</li></a>
+				<li><a href="https://www.instagram.com/reeal_ryaan/"
+						target="_blank">@reeal_ryaan</li></a>
+				<li><a href="https://github.com/RRyanDEV" target="_blank">Github</li></a>
+			</ul>
+		</nav>
+
+		<div class="profile">
+			<img width="200"
+				src="https://media.licdn.com/dms/image/D4D03AQGq11W9YeV58A/profile-displayphoto-shrink_800_800/0/1683125140072?e=1718841600&v=beta&t=vVlpExacm4mep0oDrZy_V0weENCKWAvV5A3FWZGx2EM"
+				height="200" alt="Ryan Gomes">
+			<div class="img-subtitle">
 
 				<h2>Ryan Gomes</h2>
 
 				<p>Desenvolvedor Web <strong>Full-Stack</strong> </p>
-
-			</article>
-
-		</section>
+			</div>
+		</div>
 
 		<footer>
 			<p>Desenvolvido por RRyanDEV</p>
 		</footer>
 
 	</body>
+	<script>
+		function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+	</script>
 </html>
