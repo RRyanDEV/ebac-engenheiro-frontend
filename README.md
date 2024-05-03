@@ -43,6 +43,11 @@ O projeto de Avaliação Interpessoal busca proporcionar uma análise abrangente
 
 </a>
 
+### v0.1.6-240503
+
+- Adicionado aulas do Módulo 8 [`Web Layouts I`].
+- Criado uma pastas onde contém imagens utilizadas no Módulo 8.
+
 ### v0.0.6-240429
 
 - Correção das atividades 3,6 e 7 da seção [`HTML E CSS`].

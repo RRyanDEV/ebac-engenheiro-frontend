@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0f172a;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #1c2029;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+  }
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    display: flex;
+    position: absolute;
+    float: left;
+    flex-direction: column;
+    z-index: 9999;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  nav a {
+    color: blue;
+    text-decoration: none;
+  }
+  nav a:hover {
+    color: red;
+  }
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style the footer */
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #1c2029;
+    text-align: center;
+    color: white;
+  }
+  footer p {
+    color: white;
+    padding: 4px;
+  }
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 576px) {
+    nav{
+      display: none;
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+  }
+  
+  @media (max-width: 992px) {
+  }
+  
+  @media (max-width: 1200px) {
+  
+  }
+  
+  @media (max-width: 1400px) {
+  }
+
+/* Layout Fluídos */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h2{
+    color: white;
+  }
+}
+.title{
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.width-100{
+  width: 100%;
+  height: 400px;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: azure;
+}
+.nav{
+  float: left;
+  width: 20%;
+  height: 100%;
+  display: table;
+  background-color: gray;
+}
+article{
+  height: 100%;
+  float: left;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.fixed-width{
+  background-color: lawngreen;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  margin: 20px auto;
+}
