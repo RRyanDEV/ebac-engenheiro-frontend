@@ -1,0 +1,75 @@
+/* Imports Components */
+@import url(./header.css);
+@import url(./navbar.css);
+@import url(./section.css);
+@import url(./forms.css);
+@import url(./footer.css);
+/*  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background: rgb(33,6,59);
+  background: linear-gradient(180deg, rgba(33,6,59,1) 0%, rgba(52,3,69,1) 100%);
+}
+
+.main-container {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Media Query */
+@media (max-width: 698px) {
+  .header-logo{
+    display: none;
+  }
+  img,
+  nav {
+    display: none;
+  }
+  .topnav {
+    visibility: visible;
+  }
+  .topnav ul{
+    list-style-type: none;
+  }
+}
+
+@media (min-width: 700px) {
+  .topnav{
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 990px) {
+  .topnav{
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 1000px) {
+  .topnav{
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 1200px) {
+  .topnav{
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 1400px) {
+  .topnav{
+    display: none;
+    visibility: hidden;
+  }
+}

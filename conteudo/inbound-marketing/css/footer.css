@@ -1,0 +1,18 @@
+footer {
+ 
+    display: block;
+    background-color: #1c2029;
+    float: left;
+    color: white;
+    padding: 20px;
+    width: 100%;
+  }
+  footer p {
+    color: white;
+   font-size: 1.4rem;
+  }
+  footer small{
+    color: white;
+    font-size: 70%;
+    display: block;
+  }
