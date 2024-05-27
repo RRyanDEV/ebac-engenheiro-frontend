@@ -42,7 +42,13 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
-### v0.2.6-240503
+### v0.3.6-240527
+
+- Feito a Newsletter referente ao Módulo 11.
+- Implementado a ferramenta de formulário do Cognito.
+- Ajustes feitos na página principal do Módulo [`Inbound Marketing`].
+
+### v0.2.6-240517
 
 - Adicionado o exercício do Módulo 11 [`Inbound Marketing Flow I`].
 - Criado duas pastas onde cada uma contém aulas referentes ao Módulo 11, mas, não há conteúdo(ainda).

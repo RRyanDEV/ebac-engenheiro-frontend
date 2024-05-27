@@ -1,46 +1,123 @@
-/* Utilizado a página de formulário para ser estilizado, assim colocando em prática as aulas do Módulo 6 */
-
-.forms{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 40rem;
+.cognito {
+  height: 350px !important;
+  overflow: hidden !important;
 }
 
-form{
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-  border-radius: 20px;
-  flex-direction: column;
-  background-color: white;
-  color: black;
+#form-container {
+  padding-top: 5% !important;
 }
 
-form h1,
-p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: black;
+#cog-0-label,
+#cog-1-label,
+#cog-2-label {
+  color: black !important;
 }
-input {
-  padding: 0.5rem;
+
+.cog-heading {
+  text-align: center !important;
+  padding-top: 2% !important;
+  color: black !important;
 }
-.title-form{
-  padding-bottom: 1rem;
+
+.cog-header__description {
+  text-align: center !important;
+  color: black !important;
 }
-.form-texts{
-  padding-bottom: 15px;
+
+.cog-row {
+  justify-content: center !important;
+  width: 103% !important;
+  padding-left: 5% !important;
 }
-[type="text"],
-[type="email"],
-label,
-textarea {
-  width: 100%;
+
+.cog-page__navigation {
+  width: 100% !important;
+  justify-content: center !important;
 }
-#center-btn{
-  width: 100%;
-  display: flex;
-  justify-content: center;
+
+.cog-form__container {
+  width: 30rem !important;
+  margin-bottom: 50px !important;
+  background-color: #f5f5f5 !important;
+  border-radius: 10px !important;
+}
+
+.cog-branding__powered {
+  background-color: #f5f5f5 !important;
+  color: black !important;
+}
+
+.cog-abuse * {
+  color: black !important;
+}
+
+.cog-confirmation-message {
+  text-align: center !important;
+  padding-left: auto !important;
+  padding-right: auto !important;
+  color: white !important;
+}
+
+.el-button {
+  border: #1c2029 !important;
+  background-color: #1c2029 !important;
+}
+.el-button:hover{
+  background-color: #636B7E !important;
+}
+
+/* Sm Tablet (Portrait) */
+@media (min-width: 769px) {
+  .cog-row {
+    width: 95% !important;
+  }
+  
+}
+
+/* Lg Tablet (Landscape) */
+@media (min-width: 1024px) {
+  .cog-row {
+    width: 95% !important;
+  }
+}
+
+/* Macbook Air (Landscape) */
+@media (min-width: 1280px) {
+  .cog-row {
+    width: 95% !important;
+  }
+}
+
+/* 1366x768 - Md Desktop / Laptop (Landscape) */
+@media (min-width: 1366px) {
+  .cog-row {
+    width: 95% !important;
+  }
+}
+
+/* 1440x1080 - Lg Desktop / Laptop (Landscape) */
+@media (min-width: 1440px) {
+  .cog-row {
+    width: 95% !important;
+  }
+}
+
+/* Sm Tablet (Portrait) */
+@media (max-width: 769px) {
+  .cog-row {
+    width: 95% !important;
+  }
+  .cog-header__description{
+    margin: 0 24px !important;
+  }
+  .cog-form__container {
+    width: 20rem !important;
+  }
+}
+
+/* Sm Smartphone (Portrait) */
+@media (max-width: 425px) {
+  .cog-row {
+    width: 95% !important;
+  }
 }
