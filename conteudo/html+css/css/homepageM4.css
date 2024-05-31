@@ -6,6 +6,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #0f172a;
 }
 
 /* Style the header */
@@ -17,7 +18,8 @@ header {
   text-align: center;
   font-size: 15px;
 }
-/* Create two columns/boxes that floats next to each other */
+
+/* Style Navbar (Full Screen) */
 nav {
   display: flex;
   position: fixed;
@@ -43,47 +45,130 @@ nav ul {
   padding: 0;
 }
 
-article {
-  background-color: #0f172a;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  height: 90vh;
-}
-article h2,
-p {
-  color: white;
-}
-
-/* Clear floats after the columns */
-section::after {
-  background: #ccc;
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* Style the footer */
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+  z-index: 9999;
   background-color: #1c2029;
   text-align: center;
   color: white;
 }
 footer p {
+  color: white;
   padding: 4px;
 }
 
+/* Style Profile */
+.profile {
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+.img-subtitle {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #1c2029;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #fff;
+  color: white;
+}
+
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav,
-  article {
-    width: 100%;
-    height: auto;
+@media (max-width: 576px) {
+  nav{
+    display: none;
+  }
+  .topnav{
+    visibility: visible;
+    h3{
+      padding: 5px;
+      color: green;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  nav{
+    display: none;
+  }
+  .topnav{
+    visibility: visible;
+    h3{
+      padding: 5px;
+      color: green;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  nav{
+    display: none;
+  }
+  .topnav{
+    visibility: visible;
+    h3{
+      padding: 5px;
+      color: green;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .topnav{
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 1400px) {
+  .topnav{
+    visibility: hidden;
   }
 }

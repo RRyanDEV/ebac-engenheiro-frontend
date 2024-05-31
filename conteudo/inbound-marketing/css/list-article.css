@@ -1,0 +1,78 @@
+/* Estilos para a seção */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Estilos para a div com classe "sectionAdj" */
+.sectionAdj {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos para a div com id "artiAdj" */
+#artiAdj {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Estilos para a div com classe "title" */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para o h1 dentro da div com classe "title" */
+.title h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a imagem dentro da div com classe "title" */
+.title img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* Estilos para o p dentro da div com classe "title" */
+.title p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+#objetivos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #list-obj,
+  #list-offers {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    list-style: none;
+    padding: 0;
+  }
+  
+  #list-obj h3,
+  #list-offers h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #list-obj li,
+  #list-offers li {
+    margin-bottom: 10px;
+  }
+  
+/* Estilos para o div com id "form-container" */
+/*  Aqui você coloca os estilos para o formulário, se necessário. */
+/* Não adicione nenhum estilo para este id neste arquivo. */

@@ -66,10 +66,6 @@
       width: 100%;
       height: auto;
     }
-    .forms{
-      margin: 25px;
-      margin-bottom: 0;
-    }
   }
   
   @media (max-width: 768px) {
@@ -84,4 +80,50 @@
   
   @media (max-width: 1400px) {
   }
-  
+
+/* Layout Fluídos */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h2{
+    color: white;
+  }
+}
+.title{
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.width-100{
+  width: 100%;
+  height: 400px;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: azure;
+}
+.nav{
+  float: left;
+  width: 20%;
+  height: 100%;
+  display: table;
+  background-color: gray;
+}
+article{
+  height: 100%;
+  float: left;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.fixed-width{
+  background-color: lawngreen;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  margin: 20px auto;
+}

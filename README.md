@@ -27,8 +27,7 @@ https://github.com/othneildrew/Best-README-Template
 <!-- ABOUT THE PROJECT -->
 
 <!-- ## Sobre o Projeto
-
-O projeto de Avaliação Interpessoal busca proporcionar uma análise abrangente das habilidades interpessoais dos alunos. Essa avaliação busca reunir feedbacks de diferentes fontes, a fim de oferecer uma visão abrangente do desempenho interpessoal de um indivíduo. -->
+ -->
 
 ### Construído com
 
@@ -42,6 +41,26 @@ O projeto de Avaliação Interpessoal busca proporcionar uma análise abrangente
 ## Notas de versão
 
 </a>
+
+### v0.3.6-240527
+
+- Feito a Newsletter referente ao Módulo 11.
+- Implementado a ferramenta de formulário do Cognito.
+- Ajustes feitos na página principal do Módulo [`Inbound Marketing`].
+
+### v0.2.6-240517
+
+- Adicionado o exercício do Módulo 11 [`Inbound Marketing Flow I`].
+- Criado duas pastas onde cada uma contém aulas referentes ao Módulo 11, mas, não há conteúdo(ainda).
+
+### v0.1.6-240503
+
+- Adicionado aulas do Módulo 8 [`Web Layouts I`].
+- Criado uma pastas onde contém imagens utilizadas no Módulo 8.
+
+### v0.0.6-240429
+
+- Correção das atividades 3,6 e 7 da seção [`HTML E CSS`].
 
 ### v0.0.5-240425
 

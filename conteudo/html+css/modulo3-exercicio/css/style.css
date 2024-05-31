@@ -1,16 +1,52 @@
-body {
-  font-family: sans-serif;
-  background-color: #cccccc;
-}
-
-table {
-
-  flex-direction: column;
-  background-color: white;
-}
-table p {
+p{
   color: black;
 }
-h1 {
-  color: #5f3aa2;
+.flyer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 45rem;
+  p{
+    font-size: small;
+  }
+}
+
+.setBg{
+  width: min-content;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+}
+#header-article{
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+  padding-bottom: 5px;
+}
+
+#title-subtitle{
+  display: flex;
+  gap: 15px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  h1{
+    font-size: x-large;
+    color: #5f3aa2;
+  }
+  
+}
+
+#footer{
+  padding-top: 7px;
+  padding-bottom: 7px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
 }
