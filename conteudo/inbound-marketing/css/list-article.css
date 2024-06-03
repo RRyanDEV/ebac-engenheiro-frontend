@@ -9,6 +9,7 @@ section {
 /* Estilos para a div com classe "sectionAdj" */
 .sectionAdj {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     width: 100%;
     max-width: 1200px;
@@ -49,16 +50,18 @@ section {
 
 #objetivos {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    padding: 20px;
+    justify-content: space-evenly;
   }
   
   #list-obj,
   #list-offers {
+    height: 10rem;
+    padding: 10px;
     border-radius: 5px;
     background-color: whitesmoke;
     list-style: none;
-    padding: 0;
+    width: 20rem;
   }
   
   #list-obj h3,
@@ -72,7 +75,3 @@ section {
   #list-offers li {
     margin-bottom: 10px;
   }
-  
-/* Estilos para o div com id "form-container" */
-/*  Aqui você coloca os estilos para o formulário, se necessário. */
-/* Não adicione nenhum estilo para este id neste arquivo. */
