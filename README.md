@@ -42,6 +42,13 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v0.4.6-240603
+
+- Ajustes na newsletter do Módulo 11
+- Criado uma landing page, referente ao Módulo 12.
+- Ajustes feitos na página principal do Módulo [`Inbound Marketing`].
+- Adicionado o exercício do Módulo 12 [`Inbound Marketing Flow II`].
+
 ### v0.3.6-240527
 
 - Feito a Newsletter referente ao Módulo 11.
@@ -116,7 +123,6 @@ https://github.com/othneildrew/Best-README-Template
 [stars-url]: https://github.com/RRyanDEV/ebac-engenheiro-frontend/stargazers
 [issues-shield]: https://img.shields.io/github/issues/RRyanDEV/ebac-engenheiro-frontend?style=for-the-badge
 [issues-url]: https://github.com/RRyanDEV/ebac-engenheiro-frontend/issues
-
 [HTML]: https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [html-url]: https://developer.mozilla.org/pt-BR/docs/Web/HTML
 [CSS]: https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
