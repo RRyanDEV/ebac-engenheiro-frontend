@@ -33,6 +33,7 @@ https://github.com/othneildrew/Best-README-Template
 
 [![HTML][HTML]][html-url]
 [![CSS][CSS]][css-url]
+[![JavaScript][JS]][js-url]
 
 <br />
  
@@ -41,6 +42,10 @@ https://github.com/othneildrew/Best-README-Template
 ## Notas de versão
 
 </a>
+
+### v0.5.6-240607
+
+- Adicionado os exercícios do Módulo 13 [`JavaScript Foundation`].
 
 ### v0.4.6-240603
 
@@ -123,7 +128,10 @@ https://github.com/othneildrew/Best-README-Template
 [stars-url]: https://github.com/RRyanDEV/ebac-engenheiro-frontend/stargazers
 [issues-shield]: https://img.shields.io/github/issues/RRyanDEV/ebac-engenheiro-frontend?style=for-the-badge
 [issues-url]: https://github.com/RRyanDEV/ebac-engenheiro-frontend/issues
+<!-- Tech -->
 [HTML]: https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [html-url]: https://developer.mozilla.org/pt-BR/docs/Web/HTML
 [CSS]: https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
 [css-url]: https://developer.mozilla.org/pt-BR/docs/Web/CSS
+[JS]: https://img.shields.io/badge/javascript-%23FFF000.svg?style=for-the-badge&logo=javascript&logoColor=black
+[js-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
