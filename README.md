@@ -18,8 +18,8 @@ https://github.com/othneildrew/Best-README-Template
     <br />
     <a href="#notas-de-versão">Notas de Versão</a>
     ||
-    <a href="https://github.com/RRyanDEV/avaliacao-interpessoal/issues">Reportar um Bug</a>
-    ||
+    <a href="https://github.com/RRyanDEV/ebac-engenheiro-frontend/issues">Reportar um Bug</a>
+    || 
     <a href="#autores">Autores</a>
     </p>
 </div>
@@ -42,6 +42,10 @@ https://github.com/othneildrew/Best-README-Template
 ## Notas de versão
 
 </a>
+
+### v0.6.6-240615
+
+- Adicionado os exercícios do Módulo 14 [`JavaScript II`].
 
 ### v0.5.6-240607
 
@@ -128,7 +132,9 @@ https://github.com/othneildrew/Best-README-Template
 [stars-url]: https://github.com/RRyanDEV/ebac-engenheiro-frontend/stargazers
 [issues-shield]: https://img.shields.io/github/issues/RRyanDEV/ebac-engenheiro-frontend?style=for-the-badge
 [issues-url]: https://github.com/RRyanDEV/ebac-engenheiro-frontend/issues
+
 <!-- Tech -->
+
 [HTML]: https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [html-url]: https://developer.mozilla.org/pt-BR/docs/Web/HTML
 [CSS]: https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
