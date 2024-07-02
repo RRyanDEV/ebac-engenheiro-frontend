@@ -1,0 +1,10 @@
+.nav-itens {
+  display: flex;
+  gap: 2rem;
+}
+.nav-itens #active {
+  color: black;
+}
+.nav-itens a {
+  text-decoration: none;
+}

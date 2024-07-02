@@ -43,6 +43,10 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v0.8.6-240702
+
+- Adicionado o exercício do Módulo 16 [`Bootstrap I`].
+
 ### v0.7.6-240617
 
 - Adicionado o exercício do Módulo 15 [`JavaScript III`].

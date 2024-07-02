@@ -1,0 +1,8 @@
+#sobre .row{
+    align-items: center;
+    justify-content: space-between;
+}
+#sobre #banner{
+    width: 1500px;
+    height: 200px;
+}
