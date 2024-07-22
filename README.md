@@ -47,7 +47,7 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
-### v0.7.6-240722
+### v0.9.6-240722
 
 - Organização das pastas do repositório.
 - Instalado o `NextJS` para fazer o deploy do projeto no Vercel.
