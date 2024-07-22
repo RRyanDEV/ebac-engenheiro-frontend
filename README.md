@@ -47,6 +47,10 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v0.9.7-240722
+
+- Hotfix para fazer o deploy no Vercel.
+
 ### v0.9.6-240722
 
 - Organização das pastas do repositório.
