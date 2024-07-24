@@ -1,0 +1,9 @@
+#bg-img {
+  background-image: url("../../assets/about-image/about-image.jpg");
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

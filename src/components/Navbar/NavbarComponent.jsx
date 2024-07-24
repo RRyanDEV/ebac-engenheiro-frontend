@@ -5,9 +5,9 @@ import ButtonToggle from "../ModeComponent/ButtonToggle";
 export default function NavbarComponent() {
   return (
     <>
-      <Navbar fluid rounded>
+      <Navbar fluid className="shadow-black shadow-2xl">
         <Navbar.Brand>
-          <h1 className="flex flex-col self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+          <h1 className="flex flex-col self-center whitespace-nowrap pl-4 text-xl font-semibold dark:text-white">
             EBAC - Engenheiro Frontend
             <p className="font-light">Portal de Exercícios</p>
           </h1>

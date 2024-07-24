@@ -47,6 +47,12 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v0.9.8-240723
+
+- Ajustes no design da seção "Sobre"
+- Ajustes na responsividade.
+- Adição de efeitos de transição entre os modos: white and dark.
+
 ### v0.9.7-240722
 
 - Hotfix para fazer o deploy no Vercel.
