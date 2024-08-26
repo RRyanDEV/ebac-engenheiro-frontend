@@ -1,0 +1,6 @@
+.container {
+  padding: 15px;
+  display: flex;
+  gap: 70px;
+  flex-direction: column;
+}

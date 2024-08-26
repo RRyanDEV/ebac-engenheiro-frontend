@@ -1,0 +1,89 @@
+#contato {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border-radius: 10px;
+  padding: 15px;
+  flex-direction: column;
+  background-color: #cbd5e1;
+  width: 85vh;
+}
+
+.control-inputs {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.control-inputs .row {
+  padding: 10px 5px;
+}
+.adj-mobile {
+  padding: 10px 10px;
+  display: flex;
+  gap: 25px;
+}
+#align-mobile {
+  padding: 10px 5px;
+}
+
+#adj-checkbox {
+  margin: 0 -24px;
+  justify-content: start;
+  display: flex;
+  gap: 5px;
+}
+
+#estado , #cep{
+  width: 105px;
+}
+
+#adjUfAndCep{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  #contato{
+    height: 70%;
+  }
+  .container {
+    margin: 25px;
+  }
+  #adj {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .adj-mobile {
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+  }
+  #resolve {
+    margin: -10px 0px;
+  }
+  #align-mobile {
+    padding: 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1400px) {
+}

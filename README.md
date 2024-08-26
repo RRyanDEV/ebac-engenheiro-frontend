@@ -47,6 +47,11 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v0.10.8-240723
+
+- Ajustes na Barra de busca da homepage do Portal de Exercícios.
+- Adicionado o exercício e as aulas do Módulo 17 [`Bootstrap II`].
+
 ### v0.9.8-240723
 
 - Ajustes no design da seção "Sobre"

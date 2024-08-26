@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Formulário Módulo 17</title>
+</head>
+
+<body>
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h3>Cadastro</h3>
+                    <p>Faça seu cadastro para receber nossos produtos em sua casa!</p>
+                </div>
+            </div>
+            <form class="form">
+                <div class="control-inputs">
+                    <div class="row" id="adj">
+                        <div class="col">
+                            <label for="nome">Nome</label>
+                            <div class="input-group">
+                                <input class="form-control" type="text" placeholder="Digite Seu Nome" name="nome"
+                                    id="nome" required>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label for="email">Email</label>
+                            <div class="input-group">
+                                <input class="form-control" type="text" placeholder="Digite Seu Email" name="email"
+                                    id="email" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col" id="resolve">
+                            <label for="enderecoC">Endereço Completo</label>
+                            <input type="text" name="enderecoC" id="enderecoC" class="form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="row" id="adj">
+                        <div class="col">
+                            <label for="cidade">Cidade</label>
+                            <input name="cidade" id="cidade" type="text" class="form-control" required>
+                        </div>
+                        <div class="col">
+                            <label for="bairro">Bairro</label>
+                            <input name="bairro" id="cidade" type="text" class="form-control" required>
+                        </div>
+
+                        <div class="adj-mobile">
+                            <div id="adjUfAndCep" class="col">
+                                <label for="estado">UF</label>
+                                <select name="estado" id="estado" class="form-control" required>
+                                    <option value="">Selecione</option>
+                                    <option value="rj">RJ</option>
+                                    <option value="sp">SP</option>
+                                    <option value="bh">BH</option>
+                                    <option value="mg">MG</option>
+                                </select>
+                            </div>
+                            <div id="adjUfAndCep" class="col">
+                                <label for="cep">CEP</label>
+                                <input name="cep" id="cep" type="text" class="form-control" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="complemento">Complemento</label>
+                            <input name="complemento" id="complemento" type="text" class="form-control" required>
+                        </div>
+                        <div class="col">
+                            <label for="cell">Telefone</label>
+                            <input name="cell" id="cell" type="text" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-check" id="adj-checkbox">
+                                <input type="checkbox" name="promo" id="promo">
+                                <label for="promo" class="form-check-label">Aceito receber mensagens
+                                    promocionais</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="align-mobile">
+                    <button type="submit" class="btn btn-lg btn-success">Realizar Cadastro</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+<script src="../../libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</html>
