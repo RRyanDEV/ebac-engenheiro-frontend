@@ -1,0 +1,31 @@
+@import url(./custom.css);
+@import url(./navbar.css);
+@import url(./carousel.css);
+@import url(./sobre.css);
+@import url(./produtos.css);
+@import url(./contato.css);
+
+body {
+  background-image: radial-gradient(
+    circle,
+    #166534,
+    #005348,
+    #00404c,
+    #002b3f,
+    #111827
+  );
+}
+
+h1,h2,h3,h4,h5, p{
+    color: white;
+}
+
+section {
+  padding: 1rem 0;
+}
+input{
+    margin: 0 0 1rem 0;
+}
+button{
+    margin: 1rem 0 0 0;
+}

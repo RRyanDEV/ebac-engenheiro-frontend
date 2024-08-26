@@ -1,0 +1,10 @@
+.card{
+    margin: 0 0 2rem 0;
+}
+
+#produtos img{
+    border-radius: 5px;
+    border-bottom: 0;
+    width: 400px;
+    height: 250px;
+}
