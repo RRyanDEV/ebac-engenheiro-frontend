@@ -1,0 +1,83 @@
+@import url(./input.css);
+@import url(./button.css);
+
+*,
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1c1c1c;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  color: wheat;
+  padding-bottom: 15px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #db2525;
+  text-align: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.inputs1,
+.inputs2 {
+  margin: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.erro{
+  border-color: #db2525 !important;
+}
+
+@media (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
+  .inputs1,
+  .inputs2 {
+    display: flex;
+    flex-direction: column;
+    margin: 7px;
+  }
+  .container {
+    padding: 35px 0px;
+  }
+  form h2 {
+    color: wheat;
+    margin-top: 15px;
+  }
+}

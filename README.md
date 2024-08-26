@@ -18,8 +18,8 @@ https://github.com/othneildrew/Best-README-Template
     <br />
     <a href="#notas-de-versão">Notas de Versão</a>
     ||
-    <a href="https://github.com/RRyanDEV/avaliacao-interpessoal/issues">Reportar um Bug</a>
-    ||
+    <a href="https://github.com/RRyanDEV/ebac-engenheiro-frontend/issues">Reportar um Bug</a>
+    || 
     <a href="#autores">Autores</a>
     </p>
 </div>
@@ -34,6 +34,10 @@ https://github.com/othneildrew/Best-README-Template
 [![HTML][HTML]][html-url]
 [![CSS][CSS]][css-url]
 [![JavaScript][JS]][js-url]
+[![BootStrap][BootStrap]][bootstrp-url]
+[![REACT][REACT]][react-url]
+[![TAIL][TAILWINDCSS]][tailw-url]
+[![NEXTJS][NEXT.JS]][nextjs-url]
 
 <br />
  
@@ -42,6 +46,35 @@ https://github.com/othneildrew/Best-README-Template
 ## Notas de versão
 
 </a>
+
+### v0.9.8-240723
+
+- Ajustes no design da seção "Sobre"
+- Ajustes na responsividade.
+- Adição de efeitos de transição entre os modos: white and dark.
+
+### v0.9.7-240722
+
+- Hotfix para fazer o deploy no Vercel.
+
+### v0.9.6-240722
+
+- Organização das pastas do repositório.
+- Instalado o `NextJS` para fazer o deploy do projeto no Vercel.
+- Instalado React para fazer o portal de navegação entre os módulos.
+- Adicionado o framework `TailwindCSS`, a biblioteca `Flowbite e Flowbite React`.
+
+### v0.8.6-240702
+
+- Adicionado o exercício do Módulo 16 [`Bootstrap I`].
+
+### v0.7.6-240617
+
+- Adicionado o exercício do Módulo 15 [`JavaScript III`].
+
+### v0.6.6-240615
+
+- Adicionado os exercícios do Módulo 14 [`JavaScript II`].
 
 ### v0.5.6-240607
 
@@ -113,7 +146,7 @@ https://github.com/othneildrew/Best-README-Template
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/85912228?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/85912228?v=4" width="100px;" alt="Foto do Ryan Gomes"/><br>
         <sub>
           <b>Ryan Gomes</b>
         </sub>
@@ -128,10 +161,20 @@ https://github.com/othneildrew/Best-README-Template
 [stars-url]: https://github.com/RRyanDEV/ebac-engenheiro-frontend/stargazers
 [issues-shield]: https://img.shields.io/github/issues/RRyanDEV/ebac-engenheiro-frontend?style=for-the-badge
 [issues-url]: https://github.com/RRyanDEV/ebac-engenheiro-frontend/issues
+
 <!-- Tech -->
+
 [HTML]: https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [html-url]: https://developer.mozilla.org/pt-BR/docs/Web/HTML
 [CSS]: https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
 [css-url]: https://developer.mozilla.org/pt-BR/docs/Web/CSS
 [JS]: https://img.shields.io/badge/javascript-%23FFF000.svg?style=for-the-badge&logo=javascript&logoColor=black
 [js-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[BootStrap]: https://img.shields.io/badge/bootstrap-%236f42c1.svg?style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrp-url]: https://getbootstrap.com/
+[REACT]: https://img.shields.io/badge/React-%2320232a.svg?&style=for-the-badge&logo=React&logoColor=%2361DAFB
+[react-url]: https://pt-br.reactjs.org
+[TAILWINDCSS]: https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
+[tailw-url]: https://tailwindcss.com/
+[NEXT.JS]: https://img.shields.io/badge/NextJS-black?style=for-the-badge&logo=next.js&logoColor=white
+[nextjs-url]: https://nextjs.org/

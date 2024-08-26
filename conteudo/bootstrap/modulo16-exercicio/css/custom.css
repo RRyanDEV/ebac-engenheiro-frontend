@@ -1,0 +1,31 @@
+/* Somente Ajustes */
+#adj {
+  color: #1c1c1c;
+}
+#logo {
+  color: #1c1c1c;
+}
+#modal-1 h5,
+#modal-2 h5,
+#modal-3 h5 {
+  color: #1c1c1c;
+}
+
+@media (min-width: 992px) {
+  .nav-itens {
+    display: flex;
+    gap: 2rem;
+    padding: 0 3rem 0 0;
+  }
+  .card {
+    width: 32%;
+    float: left;
+    margin: 0 0 2rem 0;
+  }
+  #produtos #response-adj {
+    margin: 2rem 0;
+    width: 200vh;
+    display: flex;
+    justify-content: space-between;
+  }
+}

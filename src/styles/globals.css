@@ -1,0 +1,13 @@
+@import url(../components/About/about.css);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  transition: all 0.2s ease;
+}
+
+html {
+  @apply h-full bg-gradient-to-b from-gray-800 to-slate-500 transition-all ease-in-out delay-100;
+}
